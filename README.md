@@ -3,7 +3,7 @@ easy way to start tensorboard in Windows platform
 
 ![tensorboard example](https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/tensorboard%20page.PNG)
 
-The default way to launch ![tensorboard](https://www.tensorflow.org/programmers_guide/summaries_and_tensorboard) is to type the following command to command prompt:
+The default way to launch [tensorboard](https://www.tensorflow.org/programmers_guide/summaries_and_tensorboard) is to type the following command to command prompt:
 
 __tensorboard --logdir=path/to/log-directory --port=port_number__
 
@@ -22,34 +22,34 @@ But I'm too lazy to type the whole line, open a web browser, then key in the lin
 <img src="https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/example2.PNG">
 </p>
 
-# explain the code in ![start tensorboad.bat](https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/start%20tensorboard.bat)
-@echo off
+# explain the code in [start tensorboad.bat](https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/start%20tensorboard.bat)
+**@echo off**
 :: get hostname of your computer and save it to variable host.
 
-FOR /F "usebackq" %%i IN (`hostname`) DO SET host=%%i
+**FOR /F "usebackq" %%i IN (`hostname`) DO SET host=%%i**
 
 :: use port 16006 as the tensorboard port.
 
-set port=16006
+**set port=16006**
 
 :: the link to the local tensorboard webpage is as follows
 
-set address="http://%host%:%port%"
+**set address="http://%host%:%port%"**
 
 :: display the address in the command prompt
 
-echo %address%
+**echo %address%**
 
 :: ask user to key in the saved model directory, example "C:\tmp\mnist_model"
 
-set /p UserInputPath=Key in model saved directory:
+**set /p UserInputPath=Key in model saved directory:**
 
 :: use default browser to open tensorboard webpage
 
-explorer %address%
+**explorer %address%**
 
 ::start tensorboard
 
-tensorboard --logdir=%UserInputPath% --port=%port%
+**tensorboard --logdir=%UserInputPath% --port=%port%**
 
 :: to stop tensorboard, press Ctrl + C in command prompt, type "y" then hit enter.
