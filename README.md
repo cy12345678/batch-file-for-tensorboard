@@ -11,9 +11,9 @@ But I'm too lazy to type the whole line, open a web browser, then key in the lin
 
 # How to use
 1. download [start tensorboad.bat](https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/start%20tensorboard.bat) file.
-2. double click to the downloaded file to open command prompt.
+2. double click the downloaded file to open command prompt.
 3. key in your model saved directory, hit enter afterwards. The tensorboard should start automatically, and the webpage should be opend as well.
-4. To stop tensorboard, press Ctrl + C in command prompt, type "y" then hit enter and leave.
+
 <p align="center"> 
 <img src="https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/example%201.PNG">
 </p>
@@ -21,6 +21,8 @@ But I'm too lazy to type the whole line, open a web browser, then key in the lin
 <p align="center"> 
 <img src="https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/example2.PNG">
 </p>
+
+4. To stop tensorboard, press Ctrl + C in command prompt, type "y" then hit enter and leave.
 
 # explain the code in [start tensorboad.bat](https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/start%20tensorboard.bat)
 **@echo off**
