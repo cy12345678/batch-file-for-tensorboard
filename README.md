@@ -14,6 +14,8 @@ But I'm too lazy to type the whole line, open a web browser, then key in the lin
 2. double click to the downloaded file to open command prompt.
 3. key in your model saved directory, hit enter afterwards. The tensorboard should start automatically, and the webpage should be opend as well.
 4. To stop tensorboard, press Ctrl + C in command prompt, type "y" then hit enter and leave.
-
+<p align="center"> 
+<img src="https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/example%201.PNG">
+</p>
 ![command prompt](https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/example%201.PNG)
 ![example2](https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/example2.PNG)
