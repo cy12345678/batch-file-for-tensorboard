@@ -17,7 +17,7 @@ But I'm too lazy to type the whole line, open a web browser, then key in the lin
 3. key in your model saved directory, hit enter afterwards. The tensorboard should start automatically, and the webpage should be opend as well.
 
 <p align="center"> 
-<img src="https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/example%201.PNG" width="50%" height="50%"/>
+<img src="https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/example%201.PNG" width="80%" height="80%"/>
 </p>
 
 <p align="center"> 
