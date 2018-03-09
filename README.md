@@ -1,7 +1,9 @@
 # batch-file-for-tensorboard
 easy way to start tensorboard in Windows platform
 
-![tensorboard example](https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/tensorboard%20page.PNG)
+<p align="center"> 
+<img src="https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/tensorboard%20page.PNG" width="80%" height="80%"/>
+</p>
 
 The default way to launch [tensorboard](https://www.tensorflow.org/programmers_guide/summaries_and_tensorboard) is to type the following command to command prompt:
 
@@ -19,7 +21,7 @@ But I'm too lazy to type the whole line, open a web browser, then key in the lin
 </p>
 
 <p align="center"> 
-<img src="https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/example2.PNG">
+<img src="https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/example2.PNG" width="80%" height="80%"/>
 </p>
 
 4. To stop tensorboard, press Ctrl + C in command prompt, type "y" then hit enter and leave.
