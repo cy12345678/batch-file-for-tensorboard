@@ -10,7 +10,7 @@ __tensorboard --logdir=path/to/log-directory --port=port_number__
 But I'm too lazy to type the whole line, open a web browser, then key in the link to tensorboard. I made a batch file to launch tensorboard and tensorboard webpage, user just need to specify the model saved directory.
 
 # How to use
-1. download "start tensorboard.bat" file.
+1. download [start tensorboad.bat](https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/start%20tensorboard.bat) file.
 2. double click to the downloaded file to open command prompt.
 3. key in your model saved directory, hit enter afterwards. The tensorboard should start automatically, and the webpage should be opend as well.
 4. To stop tensorboard, press Ctrl + C in command prompt, type "y" then hit enter and leave.
@@ -24,6 +24,7 @@ But I'm too lazy to type the whole line, open a web browser, then key in the lin
 
 # explain the code in [start tensorboad.bat](https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/start%20tensorboard.bat)
 **@echo off**
+
 :: get hostname of your computer and save it to variable host.
 
 **FOR /F "usebackq" %%i IN (`hostname`) DO SET host=%%i**
