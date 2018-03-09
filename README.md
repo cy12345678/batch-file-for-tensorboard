@@ -4,6 +4,7 @@ easy way to start tensorboard in Windows platform
 ![tensorboard example](https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/tensorboard%20page.PNG)
 
 The default way to launch tensorboard is to type the following command to command prompt:
+
 __tensorboard --logdir=path/to/log-directory --port=port_number__
 
 But I'm too lazy to type the whole line, open a web browser, then key in the link to tensorboard. I made a batch file to launch tensorboard and tensorboard webpage, user just need to specify the model saved directory.
