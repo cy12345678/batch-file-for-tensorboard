@@ -21,7 +21,7 @@ set /p UserInputPath=Key in model saved directory:
 explorer %address%
 
 ::start tensorboard
-tensorboard --logdir=%UserInputPath% --port=%port%
+tensorboard --logdir="%UserInputPath%" --port=%port%
 
 :: to stop tensorboard, press Ctrl + C in command prompt, type "y" then hit enter.
 pause
