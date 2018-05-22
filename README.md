@@ -1,5 +1,5 @@
 # batch-file-for-tensorboard
-easy way to start tensorboard in Windows platform
+an easy way to start tensorboard in Windows platform
 
 <p align="center"> 
 <img src="https://github.com/cy12345678/batch-file-for-tensorboard/blob/master/tensorboard%20page.PNG" width="80%" height="80%"/>
